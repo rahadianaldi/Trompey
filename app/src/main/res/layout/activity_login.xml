@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5D6FAF"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_above="@id/form_login"
+        android:id="@+id/txt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/roboto_bold_italic" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:id="@+id/form_login"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:ems="10"
+            app:counterOverflowTextColor="@color/white"
+            app:hintTextAppearance="@color/white"
+            android:textColorHint="@color/white"
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+
+        android:inputType="textEmailAddress"
+      />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/pass_input"
+            app:counterOverflowTextColor="@color/white"
+            app:hintTextAppearance="@color/white"
+            android:textColorHint="@color/white"
+            android:ems="10"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/txt_akun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum mempunyai akun?"
+            android:textColor="#FFFFFF"
+            app:fontFamily="@font/roboto" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/txt_daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:textColor="#FFFFFF"
+            app:fontFamily="@font/roboto"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="262dp"
+            android:layout_height="36dp"
+            android:background="@drawable/rounded_button"
+            android:text="Login"
+            android:textColor="#8A97DD"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/form_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.google.android.gms.common.internal.SignInButtonImpl
+        android:id="@+id/signInButtonImpl"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView3"
+        android:background="#673AB7"
+        android:text="Login dengan Google"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/common_google_signin_btn_text_light_focused" />
+    </RelativeLayout>
+</RelativeLayout>

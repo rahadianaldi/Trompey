@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddObatHewan">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="407dp"
+            android:layout_height="178dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/logo_trompet">
+        </ImageView>
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="text"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_obat"
+                android:id="@+id/et_namaObat"/>
+
+            <EditText
+                android:inputType="text"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Harga"
+                android:id="@+id/et_hargaObat"/>
+
+            <EditText
+                android:inputType="textLongMessage"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="@string/desc"
+                android:id="@+id/et_deskripsiObat"/>
+
+            <ImageView
+                android:onClick="uploadImage"
+                android:layout_marginTop="10dp"
+                android:id="@+id/img_obat"
+                android:layout_width="205dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:src="@mipmap/ic_medicine" />
+
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_margin="10dp"
+                    android:id="@+id/btn_upload"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_terima"
+                    android:text="@string/tambah_obat"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

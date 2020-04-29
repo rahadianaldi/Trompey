@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5D6FAF</color>
+    <color name="colorPrimaryDark">#3B456D</color>
+    <color name="colorAccent">#5D6FAF</color>
+    <color name="Black">#000000</color>
+    <color name="button_login">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="judulmakanan">#E95454</color>
+    <color name="button_edit">#F44336</color>
+    <color name="button_daftar">#FFFFFF</color>
+    <color name="button_menu">#6982B6</color>
+    <color name="button_logout">#7E7B7B</color>
+    <color name="green">#4CAF50</color>
+</resources>

@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Nexa Rust
+Author: Fontfabric
+Url: http://www.fontsquirrel.com/fonts/nexa-rust
+
+Font: Aller
+Author: Dalton Maag Ltd
+Url: http://www.fontsquirrel.com/fonts/Aller

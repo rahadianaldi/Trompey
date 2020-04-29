@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MakananHewanDetail">
+
+
+    <TextView
+        android:id="@+id/desc_makan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="top|left"
+        android:padding="30dp"
+        android:text="Deskripsi Produk"
+        android:textSize="18sp"
+        app:fontFamily="@font/roboto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hargamakandetail"
+        app:layout_constraintVertical_bias="0.09"
+        tools:layout_conversion_absoluteHeight="535dp"
+        tools:layout_conversion_absoluteWidth="363dp" />
+
+    <TextView
+        android:id="@+id/namamakandetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarmakandetail"
+        tools:layout_conversion_absoluteHeight="41dp"
+        tools:layout_conversion_absoluteWidth="263dp"
+        tools:text="JUDUL PRODUK" />
+
+    <TextView
+        android:id="@+id/hargamakandetail"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namamakandetail"
+        tools:layout_conversion_absoluteHeight="32dp"
+        tools:layout_conversion_absoluteWidth="263dp"
+        tools:text="Harga Produk" />
+
+    <ImageView
+        android:id="@+id/gambarmakandetail"
+        android:layout_width="343dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_1"
+        android:elevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailDokter"
+    android:background="@drawable/bgapps">
+
+
+    <ScrollView
+
+        android:layout_width="398dp"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judulmenudokter"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="404dp"
+            android:layout_height="324dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.707"
+            tools:layout_editor_absoluteX="-31dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="@dimen/cardview_compat_inset_shadow"
+                android:layout_marginBottom="30dp"
+                android:elevation="30dp"
+                app:cardBackgroundColor="#5D6FAF"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp">
+
+                <TextView
+
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:background="#005D6FAF"
+                    android:gravity="center"
+                    android:text="Berikut Isi Detail Dokter :"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+
+                    android:id="@+id/nama_dokter"
+                    android:layout_width="340dp"
+                    android:layout_height="90dp"
+                    android:background="#005D6FAF"
+                    android:gravity="center|bottom"
+                    android:text="NAMA DOKTER"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+
+                    android:id="@+id/harga_dokter"
+                    android:layout_width="340dp"
+                    android:layout_height="130dp"
+                    android:background="#005D6FAF"
+                    android:gravity="center|bottom"
+                    android:text="HARGA DOKTER"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextView
+
+                    android:id="@+id/jadwal_dokter"
+                    android:layout_width="350dp"
+                    android:layout_height="310dp"
+                    android:background="#005D6FAF"
+                    android:gravity="center"
+                    android:text="JADWAL DOKTER"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:background="#005D6FAF"
+                    android:gravity="center"
+                    android:text="Masukkan Waktu Janjian (Jam) :"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editText_waktu"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:ems="10"
+                    android:gravity="bottom"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:layout_gravity="center" />
+
+                <Button
+                    android:id="@+id/book"
+                    android:layout_width="209dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/judulmakanan"
+                    android:onClick="Booking"
+                    android:text="Pesan"
+                    android:textColor="#FFFFFF" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+
+            </Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="221dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/logomenumakanan"
+        android:layout_width="269dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_trompet" />
+
+    <TextView
+        android:id="@+id/judulmenudokter"
+        android:layout_width="386dp"
+        android:layout_height="151dp"
+        android:background="@drawable/rounded_1"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:text="Doctor"
+        android:textColor="#000000"
+        android:textSize="30sp"
+
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logomenumakanan"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav-bot"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:elevation="30dp"
+        app:itemTextColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

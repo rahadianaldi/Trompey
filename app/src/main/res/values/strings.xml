@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Trompey</string>
+    <string name="garis">- - - - - - - - - - - - - - - - - - - - - - - - - - -</string>
+    <string name="pet_food">Pet Food</string>
+    <string name="transfer">Bukti transfer berhasil diupload</string>
+    <string name="transfer2">Silahkan ambil produk di toko</string>
+    <string name="beli">Beli</string>
+    <string name="txt">txt</string>
+    <string name="txt1">txt</string>
+    <string name="desc">desc</string>
+    <string name="upload_bukti_transfer">Upload Bukti Transfer</string>
+    <string name="disimpan">Simpan Pesanan</string>
+    <string name="info1">Kantong belanja Berhasil dipilih</string>
+    <string name="info2">Silahkan bayar ditempat setelah menyimpan pesanan</string>
+    <string name="info3">Pesanan Berhasil Disimpan</string>
+    <string name="info4">Silahkan Bayar dan Ambil Produk di toko</string>
+
+    <string-array name="judulmakan">
+        <item>Me-o Cat Food</item>
+        <item>Cleo Cat Food</item>
+        <item>Maxi Cat Food</item>
+
+    </string-array>
+
+    <string-array name="gambarmakan">
+        <item>@drawable/cat1_f</item>
+        <item>@drawable/cat2_f</item>
+        <item>@drawable/cat3_f</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vitamin">Vitamin</string>
+    <string name="Beli_Obat">BELI</string>
+    <string name="pet_medicine">Pet Medicine</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="nama_obat">
+        <item>Nutri-plus Gel</item>
+        <item>Megaderm</item>
+        <item>Megaderm Sachet</item>
+    </string-array>
+
+    <string-array name="harga_obat">
+        <item>Rp. 30.000</item>
+        <item>Rp. 40.000</item>
+        <item>Rp. 35.000</item>
+    </string-array>
+
+    <string-array name="gambar_obat">
+        <item>@drawable/logo_grooming</item>
+        <item>@drawable/logo_grooming</item>
+        <item>@drawable/logo_grooming</item>
+    </string-array>
+
+    <string-array name="nama_dokter">
+        <item>drh. Alwan Alyafi Mulyawan</item>
+        <item>drh. Rahadian Ali Nugroho</item>
+        <item>drh. Made Darma Wijaya</item>
+        <item>drh. Windy Astuti</item>
+        <item>drh. Robi Dewi Asih Pramesti</item>
+    </string-array>
+
+    <string-array name="harga_dokter">
+        <item>Rp. 500.000</item>
+        <item>Rp. 400.000</item>
+        <item>Rp. 350.000</item>
+        <item>Rp. 450.000</item>
+        <item>Rp. 450.000</item>
+    </string-array>
+
+    <string-array name="gambar_dokter">
+        <item>@drawable/logo_dokter</item>
+        <item>@drawable/logo_dokter</item>
+        <item>@drawable/logo_dokter</item>
+        <item>@drawable/logo_dokter</item>
+        <item>@drawable/logo_dokter</item>
+    </string-array>
+
+    <string-array name="jadwal_dokter">
+        <item>Jadwal Setiap Hari Senin dan Minggu</item>
+        <item>Jadwal Setiap Hari Selasa</item>
+        <item>Jadwal Setiap Hari Rabu</item>
+        <item>Jadwal Setiap Hari Kamis</item>
+        <item>Jadwal Setiap Hari Jumat dan Sabtu</item>
+    </string-array>
+
+    <string-array name="hargamakan">
+        <item>Rp. 40000</item>
+        <item>Rp. 40000</item>
+        <item>Rp. 40000</item>
+
+    </string-array>
+
+    <string-array name="deskripsi_makan">
+        <item>Me-o Cat Food Merupakan makanan untuk kucing dengan berbagai nutrisi pada setiap butir-nya</item>
+        <item>Cleo Cat Food Merupakan makanan kucing dengan kandungan protein 30%, lemak 9%, serat 5%, dan kandungan air 10%</item>
+        <item>Maxi Cat Food Makanan kucing merek ini dapat dikonsumsi oleh kucing Berusai muda dan dewasa</item>
+    </string-array>
+
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="Diamond">Diamond</string>
+    <string name="Gold">Gold</string>
+    <string name="Silver">Silver</string>
+    <string name="Book">Book</string>
+    <string name="Paket">Paket</string>
+    <string name="Isi">Isi</string>
+    <string name="Harga">Harga</string>
+    <string name="bayar_dan_pesan">Bayar dan Pesan</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="transfer_bank">Transfer Bank</string>
+    <string name="gopayy">Gopay</string>
+    <string name="iklanHome">Punya peliharaan bingung ngurus-nya? Pakai TROMPET saja!</string>
+    <string name="historymakanan">History Makanan</string>
+    <string name="emptyEmail">email kosong</string>
+    <string name="emptyPassword">password kosong</string>
+    <string name="button_history">History Obat</string>
+    <string name="history_obat">Pet Medicine</string>
+    <string name="doctor">Doctor</string>
+    <string name="detail_dokter">Detail</string>
+    <string name="doctor_history">Doctor History</string>
+    <string name="history_dokter">History</string>
+    <string name="tambah_obat">Tambah Obat</string>
+    <string name="nama_obat">Nama Obat</string>
+    <string name="tolak">Decline</string>
+    <string name="email">Email</string>
+    <string name="terima">Accept</string>
+    <string name="admin">Admin</string>
+    <string name="grooming">List User Grooming</string>
+    <string name="list_accept">List Accept Grooming</string>
+    <string name="list_decline">List Decline Grooming</string>
+    <string name="address">Address</string>
+    <string name="status">Status</string>
+    <string name="password">Password</string>
+
+</resources>

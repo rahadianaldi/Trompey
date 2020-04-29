@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GroomingMetodePembayaranActivity"
+    android:background="@drawable/bgapps">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="-50dp"
+            android:src="@drawable/logo_trompet">
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/petgrooming"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/rounded_1"
+            android:elevation="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Pet Grooming"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_metodepembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_menu"
+        android:gravity="center"
+        android:text="Metode Pembayaran"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/transfer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="2dp">
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_transferbank" />
+
+        <TextView
+            android:id="@+id/tv_trf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transfer_bank"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cod"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_cod" />
+
+        <TextView
+            android:id="@+id/tv_cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cash_on_delivery"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gopay"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_gopay" />
+
+        <TextView
+            android:id="@+id/tv_gopay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gopayy"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

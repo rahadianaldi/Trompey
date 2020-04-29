@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/rounded_menu">
+        <TextView
+            android:id="@+id/paket_grooming"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            tools:text="paket 1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/isi_grooming"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            tools:text="isi 1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/harga_grooming"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            tools:text="harga 1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/metodepembayaran_grooming"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            tools:text="metode 1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/status_grooming"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="top|center"
+            tools:text="status 1"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

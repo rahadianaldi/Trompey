@@ -1,0 +1,16 @@
+Product Backlog
+
+Sprint 1
+1. Login
+2. Register
+3. Beli Makanan
+4. Beli Obat-Obatan
+
+Sprint 2
+User = melakukan booking 
+Admin = melihat booking, approve
+
+Issue
+Login:database, UI, activity
+Register :UI, Activity
+Beli makan  : tabel, UI, Activity
